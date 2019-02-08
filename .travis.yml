@@ -1,0 +1,28 @@
+language: ruby
+rvm:
+  - 2.3
+cache:
+  - bundler
+gemfile: travisGemfile
+install:
+  - bundle install
+before_script:
+  - chmod +x install.sh
+script: "./install.sh"
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+branches:
+  only:
+    - master
+    - gh-pages
+deploy:
+  provider: pages
+  local_dir: "_site"
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  target_branch: gh-pages
+  on:
+    branch: gh-pages
+notifications:
+  email: false
