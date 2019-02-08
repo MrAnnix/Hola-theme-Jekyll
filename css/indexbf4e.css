@@ -1,0 +1,91 @@
+.screenshot{
+    width:100%;
+    border-radius:2px
+}
+.project-link{
+    text-decoration:none!important;
+    color:#333!important
+}
+.project-borders{
+    transition:box-shadow .3s;
+    box-shadow:none;
+    position:relative;
+    padding:8px;
+    vertical-align:middle
+}
+.project-borders::before,.project-borders::after{
+    position:absolute;
+    content:'';
+    border-radius:2px;
+    border:1px solid transparent;
+    width:0;
+    height:0
+}
+.project-borders::before{
+    top:0;
+    left:0
+}
+.project-borders::after{
+    top:0;
+    left:0;
+    bottom:0;
+    right:0
+}
+.project-borders:hover{
+    box-shadow:0 3px 4px #ccc
+}
+.project-borders:hover::before,.project-borders:hover::after{
+    width:calc(100% - 1px);
+    height:calc(100% - 1px)
+}
+.project-borders:hover::before{
+    border-top-color:#c8463e;
+    border-right-color:#c8463e;
+    transition:width .15s ease-out 0s,height .15s ease-out .15s
+}
+.project-borders:hover::after{
+    border-bottom-color:#c8463e;
+    border-left-color:#c8463e;
+    transition:height .15s ease-out 0s,width .15s ease-out .15s
+}
+.sites-list a{
+    text-decoration:none;
+    color:#333!important
+}
+.sites-list a:hover{
+    text-decoration:underline
+}
+.sites-list>ul{
+    list-style-type:none
+}
+.sites-list>ul>li{
+    padding:4px 0
+}
+.sites-list>ul>.e-mail{
+    background-image:url(../static/e-mail.svg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:26px 26px;
+    padding-left:36px
+}
+.sites-list>ul>.github{
+    background-image:url(../static/github.svg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:26px 26px;
+    padding-left:36px
+}
+.sites-list>ul>.linkedin{
+    background-image:url(../static/linkedin.svg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:26px 26px;
+    padding-left:36px
+}
+.sites-list>ul>.stacko{
+    background-image:url(../static/stacko.svg);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:26px 26px;
+    padding-left:36px
+}

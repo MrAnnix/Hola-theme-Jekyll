@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /blog.html
+Disallow: /links.html
+
+Sitemap: https://raulsanmartin.es/sitemap.xml

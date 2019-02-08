@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://raulsanmartin.es/</loc>
+  <lastmod>2018-10-16T12:00:50+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://raulsanmartin.es/en/</loc>
+  <lastmod>2018-10-16T11:56:29+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://raulsanmartin.es/contact.html</loc>
+  <lastmod>2018-10-16T11:51:48+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://raulsanmartin.es/en/contact.html</loc>
+  <lastmod>2018-10-16T11:53:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

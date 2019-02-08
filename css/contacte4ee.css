@@ -1,0 +1,17 @@
+.e-mail{
+    padding-left:24px;
+    color:#2671b3;
+    font-family:iosevka term;
+    font-size:18pt
+}
+.fingerprint>.line{
+    text-align:center;
+    color:#2671b3;
+    font-family:iosevka term;
+    font-size:14pt
+}
+.pgp-key{
+    color:#646894;
+    font-family:iosevka term;
+    font-size:9pt
+}
