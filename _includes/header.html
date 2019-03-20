@@ -1,0 +1,31 @@
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="/"><img src="{{ logo_url }}" alt="Homepage"></a>
+        </div>
+
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                {% if page.name == 'index.html' %}
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">Sobre Mí</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Mis Proyectos</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contacto</a></li>
+                <li><a class="smoothscroll"  href="/blog" title="blog">Blog</a></li>
+                {% else %}
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
+                <li><a href="/#about" title="about">Sobre Mí</a></li>
+                <li><a href="/#works" title="works">Mis Proyectos</a></li>
+                <li><a href="/#contact" title="contact">Contacto</a></li>
+                <li><a href="/blog" title="blog">Blog</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
