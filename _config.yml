@@ -11,7 +11,7 @@ permalink: pretty
 
 #plugins
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 #  - jekyll-sitemap
 
 # Theme fields
@@ -20,6 +20,9 @@ hola:
   contact_bg: "/images/contact-bg.jpg"
 
 # Social settings
-
+github: "http://facebook.com"
+twitter: "http://twitter.com"
+linkedin: "http://instagram.com"
+email: "http://youtube.com"
 
 feed: yes
