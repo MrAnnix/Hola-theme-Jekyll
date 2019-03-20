@@ -1,12 +1,12 @@
 # Site settings
 title: Raúl San Martín
-description: "¡Hola! Soy un estudiante de Ingeniería de Telecomunicaciones y desarrollador que vive en España."
-url: "https://raulsanmartin.es"
+description: ¡Hola! Soy un estudiante de Ingeniería de Telecomunicaciones y desarrollador que vive en España.
+url: https://raulsanmartin.es
 logo_url: /images/logo.png
 logo_alt: /images/logo_alt.png
 favicon: /favicon.ico
-permalink: pretty
 author: Raúl San Martín Aniceto
+permalink: pretty
 
 #plugins
 plugins:
