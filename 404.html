@@ -4,15 +4,19 @@ layout: default
 permalink: /404.html
 ---
 
-<div class="page-header page-header--single page-hero" style="background-image:url(/images/error.jpg)">
+<section class="page-header page-hero" style="background-image:url(/images/error.jpg">
+        <div class="row page-header__content narrow text-center">
+            <h1 class="page-header__title">{{ page.title }}</h1>
+        </div>
+</section>
 
-    <div class="row page-header__content narrow">
-        <article class="col-full">
-            <h1 class="page-header__title" style="visibility: hidden">{{ page.title }}</h1>
-        </article>
-    </div>
-
-</div>
-
-<img src="/images/404.jpg" alt="404">
-<p>¡Vaya! No he podido encontrar lo que buscabas.</p>
+<section id="error" class="s-error">
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <div>
+                    <img src="/images/404.jpg" alt="404">
+                    <p>¡Vaya! No he podido encontrar lo que buscabas.</p>
+                </div>
+            </div>
+        </div>
+</section>
