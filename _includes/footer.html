@@ -51,7 +51,7 @@
 
 </footer> <!-- end footer -->
 
-
+{% if page.name == 'index.html' %}
 <!-- photoswipe background
 ================================================== -->
 <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
@@ -90,6 +90,7 @@
     </div>
 
 </div><!-- end photoSwipe background -->
+{% endif %}
 
 <div id="preloader">
     <div id="loader"></div>
@@ -98,9 +99,9 @@
 
 <!-- Java Script
 ================================================== -->
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+<script src="/js/jquery-3.2.1.min.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/main.js"></script>
 
 </body>
 
