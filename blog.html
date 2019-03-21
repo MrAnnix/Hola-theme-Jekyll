@@ -19,7 +19,7 @@ layout: default
                         {% endfor %}
                     </div>
                     <div class="page-header__date">
-                        {{ page.date | date: '%B %d, %Y' }}
+                        {{ post.date | date: '%B %d, %Y' }}
                     </div>
                 </div>
 
@@ -28,7 +28,7 @@ layout: default
                         {{ post.title }}
                     </a>
                 </h1>
-                <p>{{ post.excerpt }}</p>
+                <p>{{ post.excerpt | truncate: 110 }}...</p>
                 <p>
                     <a href="{{ post.url }}" class="btn btn--stroke page-header__btn">Read More</a>
                 </p>
