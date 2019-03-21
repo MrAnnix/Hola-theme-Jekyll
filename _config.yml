@@ -11,7 +11,7 @@ permalink: pretty
 
 #plugins
 plugins:
-#  - jekyll-feed
+  - jekyll-feed
 #  - jekyll-sitemap
 
 # Theme fields
