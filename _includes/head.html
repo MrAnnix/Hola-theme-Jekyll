@@ -11,7 +11,7 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="description" content="{% if post.excerpt %}{{ post.excerpt }}{% else if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{% if post.excerpt %}{{ post.excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta name="author" content="{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}">
 
     <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
