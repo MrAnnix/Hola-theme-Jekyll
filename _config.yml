@@ -21,16 +21,16 @@ hola:
 
 # Social settings
 social:
-  github:
+  - title: github
     icon: "im im-github"
     link: "https://github.com/MrAnnix"
-  twitter:
+  - title: twitter
     icon: "im im-twitter"
     link: "https://twitter.com/MrAnnix"
-  linkedin:
+  - title: linkedin
     icon: "im im-linkedin"
     link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
-  email:
+  - title: email
     icon: "im im-mail"
     smoothscroll: yes
     link: "/#contact"
