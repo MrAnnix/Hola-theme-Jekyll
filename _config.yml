@@ -20,9 +20,19 @@ hola:
   contact_bg: "/images/contact-bg.jpg"
 
 # Social settings
-github: "http://facebook.com"
-twitter: "http://twitter.com"
-linkedin: "http://instagram.com"
-email: "http://youtube.com"
+social:
+  github:
+    icon: im im-github
+    link: "https://github.com/MrAnnix"
+  twitter:
+    icon: im im-twitter
+    link: "https://twitter.com/MrAnnix"
+  linkedin:
+    icon: im im-linkedin
+    link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
+  email:
+    icon: im im-mail
+    smoothscroll: yes
+    link: "/#contact"
 
 feed: yes
