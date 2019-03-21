@@ -11,7 +11,7 @@ layout: default
             <article class="col-full">
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        {% if page.categories %} |
+                        {% if page.categories %}
                         {% for category in page.categories %}
                         <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
                         {% endfor %}
@@ -45,7 +45,7 @@ layout: default
                     <span>Tags</span>
 
                     <span class="blog-content__tag-list">
-                      {% if page.tags %} |
+                      {% if page.tags %}
                       {% for tag in page.tags %}
                       <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ category }}</a>
                       {% endfor %}
