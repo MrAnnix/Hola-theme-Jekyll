@@ -69,113 +69,26 @@ layout: default
                     </article>
                     {% endfor %}
 
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 15, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="/blog-single.html">Photography Skills Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Photography</a>
-                        </div>
-
-                    </article>
-
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 14, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
-                        </div>
-                    </article>
-
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 12, 2017</a>
-                        </div>
-                        <h2 class="h01"><a href="blog-single.html">You Can See Patterns Everywhere.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a><a href="blog.html">UI</a>
-                        </div>
-                    </article>
-
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 12, 2017</a>
-                        </div>
-                        <h2 class="h01"><a href="blog-single.html">Designing With Black and White.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a>
-                        </div>
-                    </article>
-
-                    <article class="col-block">
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 10, 2017</a>
-                        </div>
-                        <h2 class="h01"><a href="blog-single.html">Get Started With Web Typography .</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Typography</a>
-                        </div>
-                    </article>
-
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 08, 2017</a>
-                        </div>
-                        <h2 class="h01"><a href="blog-single.html">Improving Design Layout With Vertical Rhythm.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a><a href="#0">Web Design</a>
-                        </div>
-                    </article>
-
                 </div> <!-- end blog-list -->
 
             </div> <!-- end col-full -->
         </div> <!-- end blog-content -->
 
         <div class="row blog-entries-nav">
-            <div class="col-full">
-                <a href="#0" class="btn btn--stroke">
+            <div class="col-full">  
+                {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path }}" class="btn btn--stroke">
                     <i class="im im-arrow-left"></i>
-                    Prev
+                    Anterior
                 </a>
-                <a href="#0" class="btn btn--stroke">
-                    Next
+                {% endif %}
+
+                {% if paginator.next_page %}
+                <a href="{{ paginator.next_page_path }}" class="btn btn--stroke">
+                    Siguiente
                     <i class="im im-arrow-right"></i>
                 </a>
+                {% endif %}
             </div>
         </div>
 
