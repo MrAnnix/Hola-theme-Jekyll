@@ -57,7 +57,7 @@ layout: default
 
                         <h2 class="h01"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
                         <p>
-                        {{ post.excerpt | strip_html }}
+                        {{ post.excerpt | strip_html | truncate: 298 }}
                         </p>
 
                         <div class="blog-cat">
@@ -75,7 +75,7 @@ layout: default
         </div> <!-- end blog-content -->
 
         <div class="row blog-entries-nav">
-            <div class="col-full">  
+            <div class="col-full">
                 {% if paginator.previous_page %}
                 <a href="{{ paginator.previous_page_path }}" class="btn btn--stroke">
                     <i class="im im-arrow-left"></i>
