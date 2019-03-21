@@ -28,7 +28,7 @@ layout: default
                         {{ post.title }}
                     </a>
                 </h1>
-                <p>{{ post.excerpt | truncate: 188 }}</p>
+                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncate: 188 }}</p>
                 <p>
                     <a href="{{ post.url }}" class="btn btn--stroke page-header__btn">Sigue leyendo</a>
                 </p>
