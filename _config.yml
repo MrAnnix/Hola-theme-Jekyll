@@ -8,6 +8,7 @@ logo_alt: "/images/logo_alt.png"
 favicon: "/favicon.ico"
 author: "Raúl San Martín Aniceto"
 permalink: pretty
+markdown: kramdown
 
 #plugins
 plugins:
