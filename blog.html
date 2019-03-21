@@ -6,23 +6,26 @@ layout: default
 
     <!-- page header
     ================================================== -->
-    <section class="page-header page-hero" style="background-image:url(/images/blog/blog-bg-01.jpg)">
+    {% for post in site.posts limit:1 %}
+    <section class="page-header page-hero" style="background-image:url(post.image)">
 
         <div class="row page-header__content">
             <article class="col-full">
 
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        <a href="#0">Branding</a><a href="#0">Design</a>
+                        {% for category in post.categories %}
+                        <a href="#0">{{ category }}</a>
+                        {% endfor %}
                     </div>
                     <div class="page-header__date">
-                        Sept 16, 2017
+                        {{ post.date }}
                     </div>
                 </div>
 
                 <h1 class="page-header__title">
                     <a href="#0" title="">
-                        The 10 Golden Rules of Clean Simple Design.
+                        {{ post.title }}
                     </a>
                 </h1>
                 <p>Pellentesque in ipsum id orci porta dapibus amet dui. Ad id deserunt ratione autem eius et minima ut et. Nihil sed quis velit aut enim aliquam. Quas non ad sint eveniet voluptatem est iure...</p>
@@ -33,7 +36,7 @@ layout: default
         </div>
 
     </section> <!-- end page-header -->
-
+    {% endfor %}
 
     <!-- blog
     ================================================== -->

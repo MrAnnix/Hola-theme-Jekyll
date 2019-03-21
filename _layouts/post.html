@@ -12,7 +12,7 @@ layout: default
                 <div class="page-header__info">
                     <div class="page-header__cat">
                         {% for category in post.categories %}
-                        <a href="#0">category</a>
+                        <a href="#0">{{ category }}</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -38,6 +38,40 @@ layout: default
         <div class="col-full blog-content__main">
 
             {{ content }}
+
+            <p class="blog-content__tags">
+                    <span>Tags</span>
+
+                    <span class="blog-content__tag-list">
+                      {% for tag in post.tags %}
+                      <a href="#0">{{ tag }}</a>
+                      {% endfor %}
+                    </span>
+
+                </p>
+
+                <div class="blog-content__pagenav">
+                    <div class="blog-content__nav">
+                        <div class="blog-content__prev">
+                            <a href="#0" rel="prev">
+                                <span>Previous Post</span>
+                                Tips on Minimalist Design
+                            </a>
+                        </div>
+                        <div class="blog-content__next">
+                            <a href="#0" rel="next">
+                                <span>Next Post</span>
+                                Less Is More
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="blog-content__all">
+                        <a href="blog.html" class="btn btn--primary">
+                            View All Post
+                        </a>
+                    </div>
+                </div>
 
         </div><!-- end blog-content__main -->
     </div> <!-- end blog-content -->
