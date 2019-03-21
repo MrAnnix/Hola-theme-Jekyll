@@ -10,16 +10,20 @@ author: "Raúl San Martín Aniceto"
 permalink: pretty
 markdown: kramdown
 
-#plugins
+# Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
 #  - jekyll-feed
 
-# paginate blog
+# Paginate blog
 paginate: 6
 paginate_path: "blog/page:num"
 post-preview-words: 298
+
+# Categories and tags pages
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 # Theme fields
 hola:
