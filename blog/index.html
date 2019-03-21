@@ -28,7 +28,7 @@ layout: default
                         {{ post.title }}
                     </a>
                 </h1>
-                <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' | truncate: 188 }}</p>
+                <p>{{ post.excerpt | strip_html | truncate: 188 }}</p>
                 <p>
                     <a href="{{ post.url }}" class="btn btn--stroke page-header__btn">Sigue leyendo</a>
                 </p>
@@ -46,6 +46,24 @@ layout: default
             <div class="col-full">
 
                 <div class="blog-list block-1-2 block-tab-full">
+                    {% for post in paginator.posts %}
+                    <article class="col-block">
+
+                        <div class="blog-date">
+                            <a href="{{ post.url | relative_url }}">{{ post.date | date: '%B %d, %Y' }}</a>
+                        </div>
+
+                        <h2 class="h01"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                        {{ post.excerpt | strip_html }}
+
+                        <div class="blog-cat">
+                            {% if post.tags %}{% for tag in post.tags %}
+                            <a href="blog.html">Photography</a>
+                            {% endfor %}{% endif %}
+                        </div>
+
+                    </article>
+                    {% endfor %}
 
                     <article class="col-block">
 
