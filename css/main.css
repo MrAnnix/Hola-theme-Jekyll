@@ -1531,6 +1531,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     transition: all 0.3s ease-in-out;
 }
 
+.header-logo img {
+    max-height: 72px
+}
 
 /* -------------------------------------------------------------------
  * ## mobile menu toggle - (_site-layout.css)
