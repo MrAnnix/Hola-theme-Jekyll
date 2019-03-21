@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<article class="blog-single">
+
+    <!-- page header/blog hero
+    ================================================== -->
+    <div class="page-header page-header--single page-hero" style="background-image:url({{ page.image }})">
+
+        <div class="row page-header__content narrow">
+            <article class="col-full">
+                <div class="page-header__info">
+                    <div class="page-header__cat">
+                        {% for category in page.categories %}
+                        <a href="#0">{{ category }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+                <h1 class="page-header__title">
+                    <a href="#0" title="">
+                        {{ page.title }}
+                    </a>
+                </h1>
+                <ul class="page-header__meta">
+                    <li class="date">{{ page.date | date: '%B %d, %Y' }}</li>
+                    <li class="author">
+                        By
+                        <span>{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span>
+                    </li>
+                </ul>
+
+            </article>
+        </div>
+
+    </div> <!-- end page-header -->
+
+    <div class="row blog-content">
+        <div class="col-full blog-content__main">
+
+            {{ content }}
+
+        </div><!-- end blog-content__main -->
+    </div> <!-- end blog-content -->
+
+</article>
