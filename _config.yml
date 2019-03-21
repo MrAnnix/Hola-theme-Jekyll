@@ -13,6 +13,7 @@ markdown: kramdown
 #plugins
 plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 #  - jekyll-feed
 
 # Theme fields
