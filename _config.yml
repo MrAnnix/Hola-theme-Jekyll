@@ -19,23 +19,6 @@ hola:
   background: "/images/hero-bg.jpg"
   contact_bg: "/images/contact-bg.jpg"
 
-# Social settings
-social:
-  - title: github
-    icon: "im im-github"
-    link: "https://github.com/MrAnnix"
-
-  - title: twitter
-    icon: "im im-twitter"
-    link: "https://twitter.com/MrAnnix"
-
-  - title: linkedin
-    icon: "im im-linkedin"
-    link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
-
-  - title: email
-    icon: "im im-mail"
-    smoothscroll: yes
-    link: "/#contact"
+# Social settings in _data/social.yml
 
 feed: yes
