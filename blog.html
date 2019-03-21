@@ -7,7 +7,7 @@ layout: default
     <!-- page header
     ================================================== -->
     {% for post in site.posts limit:1 %}
-    <section class="page-header page-hero" style="background-image:url(post.image)">
+    <section class="page-header page-hero" style="background-image:url({{ post.image }})">
 
         <div class="row page-header__content">
             <article class="col-full">
@@ -19,7 +19,7 @@ layout: default
                         {% endfor %}
                     </div>
                     <div class="page-header__date">
-                        {{ post.date }}
+                        {{ page.date | date: '%B %d, %Y' }}
                     </div>
                 </div>
 
