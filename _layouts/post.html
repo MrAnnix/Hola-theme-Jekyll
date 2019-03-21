@@ -11,9 +11,11 @@ layout: default
             <article class="col-full">
                 <div class="page-header__info">
                     <div class="page-header__cat">
+                        {% if page.categories %} |
                         {% for category in page.categories %}
-                        <a href="#0">{{ category }}</a>
+                        <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}">{{ category }}</a>
                         {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
                 <h1 class="page-header__title">
