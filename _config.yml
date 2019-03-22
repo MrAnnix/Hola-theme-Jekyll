@@ -17,7 +17,7 @@ plugins:
 #  - jekyll-feed
 
 # Paginate blog
-paginate: 1
+paginate: 6
 paginate_path: "blog/page:num"
 post-preview-words: 298
 
