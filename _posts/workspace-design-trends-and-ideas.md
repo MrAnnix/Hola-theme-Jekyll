@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Workspace Design Trends and Ideas."
 image: /images/blog/blog-bg-02.jpg
 categories: Trends
 tags: [design, ideas, branding, nulla]
