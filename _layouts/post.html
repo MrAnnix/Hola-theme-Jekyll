@@ -56,18 +56,22 @@ layout: default
 
                 <div class="blog-content__pagenav">
                     <div class="blog-content__nav">
+                        {% if page.previous.url %}
                         <div class="blog-content__prev">
                             <a href="{{page.previous.url}}" rel="prev">
                                 <span>Anterior Post</span>
                                 {{page.previous.title}}
                             </a>
                         </div>
+                        {% endif %}
+                        {% if page.next.url %}
                         <div class="blog-content__next">
                             <a href="{{page.next.url}}" rel="next">
                                 <span>Siguiente Post</span>
                                 {{page.next.title}}
                             </a>
                         </div>
+                        {% endif %}
                     </div>
 
                     <div class="blog-content__all">
