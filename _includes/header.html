@@ -8,7 +8,7 @@
             <a class="site-logo" href="/"><img src="{{ site.logo_url }}" alt="Página de inicio"></a>
         </div>
 
-        <nav class="header-nav-wrap">
+        <nav class="header-nav-wrap"
             <ul class="header-nav">
                 {% if page.title == 'Hola' %}
                 <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
@@ -16,7 +16,13 @@
                 <li><a class="smoothscroll"  href="#works" title="works">Mis Proyectos</a></li>
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contacto</a></li>
                 <li><a href="/blog" title="blog">Blog</a></li>
-                {% else %}
+                {% elsif page.title == 'Blog' %}
+                <li><a href="/#home" title="home">Inicio</a></li>
+                <li><a href="/#about" title="about">Sobre Mí</a></li>
+                <li><a href="/#works" title="works">Mis Proyectos</a></li>
+                <li><a href="/#contact" title="contact">Contacto</a></li>
+                <li class="current"><a href="/blog" title="blog">Blog</a></li>
+                {{ else }}
                 <li><a href="/#home" title="home">Inicio</a></li>
                 <li><a href="/#about" title="about">Sobre Mí</a></li>
                 <li><a href="/#works" title="works">Mis Proyectos</a></li>
