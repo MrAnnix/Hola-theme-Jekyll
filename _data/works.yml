@@ -1,0 +1,15 @@
+- title: GeekMag
+  category: Web Development
+  photo-gallery: /images/portfolio/gallery/g-geekmag.jpg
+  photo: /images/portfolio/geekmag.jpg
+  photo2x: /images/portfolio/geekmag2x.jpg
+  description: "GeekMag es una publicación online centrada en la tecnología, ciencia, películas y videojuegos."
+  link: "https://www.geekmag.es/"
+
+- title: JCPasesores
+  category: Web Design
+  photo-gallery: /images/portfolio/gallery/g-jcpasesores.jpg
+  photo: /images/portfolio/jcpasesores.jpg
+  photo2x: /images/portfolio/jcpasesores2x.jpg
+  description: "JCPasesores es una asesoría integral ubicada en Alcorcón (Madrid)."
+  link: "https://jcpasesores.es/"
