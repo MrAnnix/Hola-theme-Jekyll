@@ -1532,7 +1532,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-logo img {
-    max-height: 72px
+    max-height: 62px
 }
 
 /* -------------------------------------------------------------------
@@ -2232,7 +2232,7 @@ html.no-csstransitions .home-content__main {
 
 .s-about {
     padding-top: 15rem;
-    padding-bottom: 9rem;
+    padding-bottom: 1rem;
     background-color: #FFFFFF;
     position: relative;
 }
