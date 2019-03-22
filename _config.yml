@@ -7,7 +7,7 @@ logo_url: "/images/logo.png"
 logo_alt: "/images/logo_alt.png"
 favicon: "/favicon.ico"
 author: "Raúl San Martín Aniceto"
-permalink: pretty
+permalink: /:categories/:title/
 markdown: kramdown
 
 # Plugins

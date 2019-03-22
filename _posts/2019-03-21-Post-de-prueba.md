@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to Jekyll!"
 image: /images/blog/blog-bg-02.jpg
-categories: [Branding, SEO]
+categories: Branding
 tags: [hot, summer]
 ---
 
