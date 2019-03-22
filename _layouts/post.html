@@ -57,22 +57,22 @@ layout: default
                 <div class="blog-content__pagenav">
                     <div class="blog-content__nav">
                         <div class="blog-content__prev">
-                            <a href="#0" rel="prev">
-                                <span>Previous Post</span>
-                                Tips on Minimalist Design
+                            <a href="{{page.previous.url}}" rel="prev">
+                                <span>Anterior Post</span>
+                                {{page.previous.title}}
                             </a>
                         </div>
                         <div class="blog-content__next">
-                            <a href="#0" rel="next">
-                                <span>Next Post</span>
-                                Less Is More
+                            <a href="{{page.next.url}}" rel="next">
+                                <span>Siguiente Post</span>
+                                {{page.next.title}}
                             </a>
                         </div>
                     </div>
 
                     <div class="blog-content__all">
                         <a href="blog.html" class="btn btn--primary">
-                            View All Post
+                            Ver Todos los Posts
                         </a>
                     </div>
                 </div>
