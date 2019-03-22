@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Another sample
-image: /images/blog/blog-bg-01.jpg
+image: /images/blog/blog-bg-05.jpg
 categories: [ejemplo, cat ejemplo]
 tags: [test, writing]
 ---

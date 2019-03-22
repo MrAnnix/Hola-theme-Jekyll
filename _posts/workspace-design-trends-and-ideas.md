@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Workspace Design Trends and Ideas."
-image: /images/blog/blog-bg-02.jpg
+image: /images/blog/blog-bg-04.jpg
 categories: Trends
 tags: [design, ideas, branding, nulla]
 ---
