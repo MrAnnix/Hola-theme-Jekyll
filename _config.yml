@@ -14,7 +14,7 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-feed
+#  - jekyll-feed
 
 # Paginate blog
 paginate: 6
