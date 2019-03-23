@@ -14,8 +14,6 @@ markdown: kramdown
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-press
-#  - jekyll-feed
 
 jekyll-press:
   exclude: 'atom.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
