@@ -137,11 +137,9 @@ layout: default
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
-                <h3>Journal</h3>
-                <h1>Latest From The Blog.</h1>
-                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute.
-                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum
-                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                <h3>Blog</h3>
+                <h1>Últimas Entradas en el Blog.</h1>
+                <p class="lead">Aquí podrás ver algunas de las últimas entradas que escribiré en mi blog. Te prometo que habrá cosas muy interesantes.</p>
             </div>
         </div>
 
@@ -149,69 +147,27 @@ layout: default
             <div class="col-full">
 
                 <div class="blog-list block-1-2 block-tab-full">
+                    {% if site.posts %}{% for post in site.posts limit:1 %}
                     <article class="col-block">
 
                         <div class="blog-date">
-                            <a href="blog-single.html">Sept 16, 2017</a>
+                            <a href="{{ post.url }}">{{ post.date | date: '%B %d, %Y' }}</a>
                         </div>
 
-                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
+                        <h2 class="h01"><a href="{{ post.url }}">{{ post.title }}</a></h2>
                         <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        {{ post.excerpt | strip_html | truncate: 360 }}
                         </p>
 
                         <div class="blog-cat">
-                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
+                                {% if post.categories %}{% for category in post.categories %}
+                                <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
+                                {% endfor %}{% endif %}
                         </div>
 
 
                     </article>
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 15, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Photography</a>
-                        </div>
-
-
-                    </article>
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 14, 2017</a>
-                        </div>
-
-                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
-                        </div>
-                    </article>
-                    <article class="col-block">
-
-                        <div class="blog-date">
-                            <a href="blog-single.html">Sept 12, 2017</a>
-                        </div>
-                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
-                        <p>
-                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
-                        </p>
-
-                        <div class="blog-cat">
-                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
-                        </div>
-                    </article>
+                    {% endfor %}{% endif %}
                 </div> <!-- end blog-list -->
 
             </div> <!-- end col-full -->

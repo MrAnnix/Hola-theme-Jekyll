@@ -6,7 +6,7 @@ layout: default
 
     <!-- page header
     ================================================== -->
-    {% for post in site.posts limit:1 %}
+    {% if site.posts %}{% for post in site.posts limit:1 %}
     <section class="page-header page-hero" style="background-image:url({{ post.image }})">
 
         <div class="row page-header__content">
@@ -14,11 +14,9 @@ layout: default
 
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        {% if post.categories %}
-                        {% for category in post.categories %}
+                        {% if post.categories %}{% for category in post.categories %}
                         <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
-                        {% endfor %}
-                        {% endif %}
+                        {% endfor %}{% endif %}
                     </div>
                     <div class="page-header__date">
                         {{ post.date | date: '%B %d, %Y' }}
@@ -38,7 +36,7 @@ layout: default
         </div>
 
     </section> <!-- end page-header -->
-    {% endfor %}
+    {% endfor %}{% endif %}
 
     <!-- blog
     ================================================== -->
