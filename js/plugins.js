@@ -9,8 +9,6 @@
  * commentBox
  */
 
- import commentBox from 'commentbox.io';
-
  commentBox('5664445921492992-proj');
 
 
