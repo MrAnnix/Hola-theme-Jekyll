@@ -18,11 +18,9 @@
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | truncate: 110 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:image" content="{{ site.url }}{{ site.logo_alt }}" />
     <meta property="og:url" content="{{ site.url }}" />
-    {% if page %}
-    <meta property='og:type' content='article' />
-    {% else %}
-    <meta property="og:type" content="website" />
-    {% endif %}
+    {% if page %}<meta property='og:type' content='article' />{% else %}<meta property="og:type" content="website" />{% endif %}
+
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml">
 
     <!-- google site verification
     ================================================== -->
