@@ -32,16 +32,16 @@ hola:
 # Social settings
 social:
   - title: Github
-    icon: "im im-github"
+    icon: "fa fa-github"
     link: "https://github.com/MrAnnix"
   - title: Twitter
-    icon: "im im-twitter"
+    icon: "fa fa-twitter"
     link: "https://twitter.com/MrAnnix"
   - title: Linkedin
-    icon: "im im-linkedin"
+    icon: "fa fa-linkedin"
     link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
   - title: Contacto
-    icon: "im im-mail"
+    icon: "fa fa-mail"
     smoothscroll: yes
     link: "/#contact"
 
