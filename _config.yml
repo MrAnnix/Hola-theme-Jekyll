@@ -41,7 +41,7 @@ social:
     icon: "fa fa-linkedin"
     link: "https://www.linkedin.com/in/raul-san-martin-aniceto"
   - title: Contacto
-    icon: "fa fa-mail"
+    icon: "fa fa-envelope"
     smoothscroll: yes
     link: "/#contact"
 
