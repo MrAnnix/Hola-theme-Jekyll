@@ -2,7 +2,7 @@
 title: "Raúl San Martín"
 description: "¡Hola! Soy un estudiante de Ingeniería de Telecomunicaciones y desarrollador que vive en España."
 url: "https://raulsanmartin.es"
-baseurl: "/blog"
+baseurl: ""
 language: es
 logo_url: "/images/logo.png"
 logo_alt: "/images/logo_alt.png"
