@@ -3,7 +3,7 @@
 ---
 
 // Imports
-@import url("base.css");
-@import url("vendor.css");
-@import url("main.css");
-@import url("font-awesome.min.css");
+@import "base.css";
+@import "vendor.css";
+@import "main.css";
+@import "font-awesome.min.css";
