@@ -28,9 +28,20 @@ category_page: '/blog/categories/'
 # Theme fields
 hola:
   background: "/images/hero-bg.jpg"
+  hello: "Hola"
+  bio: "Me llamo Raúl San Martín.<br>Soy un estudiante y desarrollador que vive en Madrid."
+  buttons:
+    first:
+      text: Proyectos
+      link: "#works"
+    second:
+      text: "Más Sobre Mí"
+      link: "#about"
+  scrolldown:
+    text: "Descubre más"
   contact_bg: "/images/contact-bg.jpg"
 
-# Social settings
+# Social settings (you can use Font Awesome icons [fa fa-icon] or Iconmonstr ones [im im-icon])
 social:
   - title: Github
     icon: "im im-github"
