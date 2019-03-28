@@ -66,11 +66,11 @@ layout: default
     </div>
     <div class="row basic-content one-column">
         <div class="col-eight tab-full">
-            {% for par in site.data.about.pars %}
-                {% if par.lead %}
-            <p class="lead" style="text-align: center;">{{ par.p }}</p>
+            {% for paragraph in site.data.about.paragraphs %}
+                {% if paragraph.lead %}
+            <p class="lead" style="text-align: center;">{{ paragraph.p }}</p>
                 {% else %}
-            <p>{{ par.p }}</p>
+            <p>{{ paragraph.p }}</p>
                 {% endif %}
             {% endfor %}
         </div>
