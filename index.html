@@ -66,13 +66,13 @@ layout: default
     </div>
     <div class="row basic-content one-column">
         <div class="col-eight tab-full">
-            {{% for paragraph in site.data.about.paragraph %}}
+            {% if site.data.about.paragraphs %}{{% for paragraph in site.data.about.paragraphs %}}
             {{% if paragraph.lead %}}
             <p class="lead style="text-align: center;">{{ paragraph.p }}</p>
             {{% else %}}
             <p>{{ paragraph.p }}</p>
             {{% endif %}}
-            {{% endfor %}}
+            {{% endfor %}}{{% endif %}}
         </div>
     </div>
     </section>
