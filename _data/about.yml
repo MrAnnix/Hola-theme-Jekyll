@@ -1,7 +1,7 @@
 title: "Más acerca de mí"
 subtitle: "¿Quién soy?"
 bio: "¡Hola! Me llamo Raúl San Martín Aniceto. Actualmente soy estudiante de Ingeniería en Tecnologías de Telecomunicaciones en la Universidad Carlos III de Madrid. Además, la mayor parte de mi tiempo libre lo dedico a crear cosas."
-paragraphs: #Add more if you want
+paragraphs:
   - p: "Me encanta resolver problemas y aprender cosas constantemente. Para mí, entender cada día el mundo que me rodea es una necesidad."
     lead: yes
 
