@@ -68,9 +68,9 @@ layout: default
         <div class="col-eight tab-full">
             {{% for paragraph in site.data.about.paragraph %}}
             {{% if paragraph.lead %}}
-            <p class="lead style="text-align: center;">{{ paragraph }}</p>
+            <p class="lead style="text-align: center;">{{ paragraph.p }}</p>
             {{% else %}}
-            <p">{{ paragraph }}</p>
+            <p>{{ paragraph.p }}</p>
             {{% endif %}}
             {{% endfor %}}
         </div>
