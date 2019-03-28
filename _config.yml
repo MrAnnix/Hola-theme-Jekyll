@@ -11,15 +11,15 @@ author: "Raúl San Martín Aniceto"
 permalink: /:categories/:title/
 markdown: kramdown
 
-sass:
-  sass_dir: _sass
-  style: compressed
-
 # Plugins
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-sass
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Paginate blog
 paginate: 6
