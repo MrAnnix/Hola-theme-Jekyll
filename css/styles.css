@@ -3,7 +3,7 @@
 ---
 
 // Imports
-@import "base.css";
-@import "vendor.css";
-@import "main.css";
-@import "font-awesome.min.css";
+@import "base";
+@import "vendor";
+@import "main";
+@import "font-awesome.min";
