@@ -41,6 +41,9 @@ hola:
     text: "Descubre más"
   contact_bg: "/images/contact-bg.jpg"
 
+# Added
+google-site-verification: "4KpPIPbUzRNI1DJR-OrOS5tNYrNvTIMj2Xh9bIybdPE"
+
 # Social settings (you can use Font Awesome icons [fa fa-icon] or Iconmonstr ones [im im-icon])
 social:
   - title: Github

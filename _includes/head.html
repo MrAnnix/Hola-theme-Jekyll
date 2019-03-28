@@ -22,10 +22,10 @@
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }} RSS" href="/feed.xml">
 
+    {% if page.title == 'Hola' and site.google-site-verification %}
     <!-- google site verification
     ================================================== -->
-    {% if page.title == 'Hola' %}
-    <meta name="google-site-verification" content="4KpPIPbUzRNI1DJR-OrOS5tNYrNvTIMj2Xh9bIybdPE" />
+    <meta name="google-site-verification" content="{{ site.google-site-verification }}" />
     {% endif %}
 
     <!-- mobile specific metas
