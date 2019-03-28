@@ -19,6 +19,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-paginate
+  - jekyll-sass
 
 # Paginate blog
 paginate: 6
