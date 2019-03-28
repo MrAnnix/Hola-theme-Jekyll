@@ -1,8 +1,7 @@
 ---
-# Front matter comment to ensure Jekyll properly reads file.
+# this ensures Jekyll reads the file to be transformed into CSS later
 ---
 
-// Imports
 @import "base";
 @import "vendor";
 @import "fonts";
