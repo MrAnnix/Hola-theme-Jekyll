@@ -10,7 +10,7 @@
 
             <ul class="footer-social">
                 {% for slink in site.social %}
-                <li><a {% if slink.smoothscroll and page.name == 'index.html' %}class="smoothscroll" {% endif %}href="{{ slink.link }}">
+                <li><a {% if slink.smoothscroll and page.title == 'Hola' %}class="smoothscroll" {% endif %}href="{{ slink.link }}">
                     <i class="{{ slink.icon }}" aria-hidden="true"></i>
                     <span>{{ slink.title }}</span>
                 </a></li>
