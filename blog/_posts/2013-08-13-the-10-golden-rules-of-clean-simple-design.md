@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The 10 Golden Rules of Clean Simple Design."
+title: "The 10 Golden Rules of Clean Simple Diseño."
 image: /images/blog/blog-bg-03.jpg
 categories: [Design]
 tags: [clean, writing, style, seo]
