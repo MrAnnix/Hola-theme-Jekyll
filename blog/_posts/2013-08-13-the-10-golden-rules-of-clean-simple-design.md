@@ -11,7 +11,7 @@ Ambitioni dedisse scripsisse iudicaretur. Quam diu etiam furor iste tuus nos elu
 Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Quisque placerat facilisis egestas cillum dolore. Quam temere in vitiis, legem sancimus haerentia. Inmensae subtilitatis, obscuris et malesuada fames.
 Paullum deliquit, ponderibus modulisque suis ratio utitur. Quam diu etiam furor iste tuus nos eludet? Unam incolunt Belgae, aliam Aquitani, tertiam. Ullamco laboris nisi ut aliquid ex ea commodi consequat. Fabio vel iudice vincam, sunt in culpa qui officia.
 
-![](blog-img1.jpg)
+![imagen](/images/wheel-1000.jpg)
 
 ##What You See Is What You Get?
 Quae vero auctorem tractata ab fiducia dicuntur. Magna pars studiorum, prodita quaerimus. Fictum, deserunt mollit anim laborum astutumque! Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Me non paenitet nullum festiviorem excogitasse ad hoc. Nec dubitamus multa iter quae et nos invenerat.
