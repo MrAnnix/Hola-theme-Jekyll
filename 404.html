@@ -5,31 +5,18 @@ permalink: /404.html
 image: /assets/images/404.png
 ---
 
-<article class="blog-single">
-
-    <!-- page header/blog hero
-    ================================================== -->
-    <div class="page-header page-header--single page-hero" style="background-image:url({{ page.image }})">
-
-        <div class="row page-header__content narrow">
-            <article class="col-full">
-                <h1 class="page-header__title" style="visibility: hidden">
-                    <a title="">
-                        {{ page.title }}
-                    </a>
-                </h1>
-
-            </article>
+<section class="small-page-header page-hero" style="background-image:url({{ page.image }})">
+        <div class="row page-header__content narrow text-center">
+            <h1 class="page-header__title" style="visibility: hidden">{{ page.title }}</h1>
         </div>
+</section>
 
-    </div> <!-- end page-header -->
-
-    <div class="row blog-content">
-        <div class="col-full blog-content__main">
-
-            <p>¡Vaya! No he podido encontrar lo que buscabas.</p>
-
-        </div><!-- end blog-content__main -->
-    </div> <!-- end blog-content -->
-
-</article>
+<section id="error" class="s-error">
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full text-center">
+            <div>
+                <p>¡Vaya! No he podido encontrar lo que buscabas.</p>
+            </div>
+        </div>
+    </div>
+</section>
