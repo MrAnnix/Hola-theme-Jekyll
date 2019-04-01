@@ -4,8 +4,8 @@ description: "¡Hola! Soy un estudiante de Ingeniería de Telecomunicaciones y d
 url: "https://raulsanmartin.es"
 baseurl: ""
 language: es
-logo_url: "/images/logo.png"
-logo_alt: "/images/logo_alt.png"
+logo_url: "/assets/images/logo.png"
+logo_alt: "/assets/images/logo_alt.png"
 favicon: "/favicon.ico"
 author: "Raúl San Martín Aniceto"
 permalink: /:categories/:title/
@@ -32,7 +32,7 @@ category_page: '/blog/categories/'
 
 # Theme fields
 hola:
-  background: "/images/hero-bg.jpg"
+  background: "/assets/images/hero-bg.jpg"
   hello: "Hola"
   bio: "Me llamo Raúl San Martín.<br>Soy un estudiante y desarrollador que vive en Madrid."
   buttons:
@@ -44,7 +44,7 @@ hola:
       link: "#about"
   scrolldown:
     text: "Descubre más"
-  contact_bg: "/images/contact-bg.jpg"
+  contact_bg: "/assets/images/contact-bg.jpg"
 
 # Added
 google-site-verification: "4KpPIPbUzRNI1DJR-OrOS5tNYrNvTIMj2Xh9bIybdPE"
