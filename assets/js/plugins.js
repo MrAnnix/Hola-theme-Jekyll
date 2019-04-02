@@ -8,8 +8,6 @@
  /*
  * commentBox
  */
- const commentBox = require('commentbox.io');
- 
  commentBox('5646947083878400-proj');
 
 
