@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "¡Hola Mundo! (o cómo monté este blog en Jekyll)"
+date: 2019-04-02T18:20:00Z
 image: /assets/images/blog/2019-04-2-Hola-mundo-como-montar-blog-Jekyll.jpg
 categories: Jekyll
 tags: [Jekyll, SSG, Github Pages, blog, Sass, CoffeeScript, Liquid]
