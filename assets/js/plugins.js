@@ -8,9 +8,9 @@
  /*
  * commentBox
  */
-import commentBox from 'commentbox.io';
+import commentBox from 'https://unpkg.com/commentbox.io/dist/commentBox.min.js';
 
- commentBox('5646947083878400-proj');
+commentBox('5646947083878400-proj');
 
 
 /*! jQuery Validation Plugin - v1.17.0 - 7/29/2017
