@@ -784,7 +784,7 @@ input[type="button"] {
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:focus, button:focus,
+.btn:focus, /*button:focus,*/
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
@@ -798,8 +798,7 @@ input[type="button"]:focus {
 /* button primary
  * ------------------------------------------------- */
 
-.btn.btn--primary,
-button.btn--primary,
+.btn.btn--primary, /*button.btn--primary,*/
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
@@ -808,8 +807,7 @@ input[type="button"].btn--primary {
     color: #FFFFFF;
 }
 
-.btn.btn--primary:hover,
-button.btn--primary:hover,
+.btn.btn--primary:hover, /*button.btn--primary:hover,*/
 input[type="submit"].btn--primary:hover,
 input[type="reset"].btn--primary:hover,
 input[type="button"].btn--primary:hover,
