@@ -586,7 +586,7 @@ form,
  *
  * ------------------------------------------------------------------- */
 
-fieldset {
+/*fieldset {
     border: none;
 }
 
@@ -711,7 +711,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
     position: relative;
     top: .15rem;
 }
-
+*/
 
 /* -------------------------------------------------------------------
  * ## style placeholder text - (_forms.scss)
@@ -3057,7 +3057,7 @@ html.no-csstransitions .home-content__main {
 /* ===================================================================
  * # contact - (_site-layout.scss)
  *
- * ------------------------------------------------------------------- */
+ * -------------------------------------------------------------------
 
 .s-contact {
     background-color: #151515;
@@ -3194,6 +3194,8 @@ html.no-csstransitions .home-content__main {
     margin-right: 10px;
     font-size: 1.2rem;
 }
+
+*/
 
 
 /* form loader */
