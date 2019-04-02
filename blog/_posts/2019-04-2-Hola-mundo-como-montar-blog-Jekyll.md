@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¡Hola Mundo! (o cómo monté este blog en Jekyll)"
-image: /images/blog/blog-bg-02.jpg
+image: /images/blog/2019-04-2-Hola-mundo-como-montar-blog-Jekyll.jpg
 categories: Jekyll
 tags: [Jekyll, SSG, github pages, blog]
 ---
@@ -59,7 +59,9 @@ Una vez que ya estaba configurado lo básico, lo siguiente era hacer que se hici
         <p>{{ post.excerpt | strip_html | truncate: 360 }}</p>   
         <div class="blog-cat">
             {% for category in post.categories %}
-            <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
+            <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">
+			    {{ category }}
+		    </a>
             {% endfor %}
         </div>    
     </article>
