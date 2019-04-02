@@ -6,7 +6,7 @@ image: /assets/images/blog/categories.jpg
 
 <div class="tags-expo">
   <div class="tags-expo-list">
-    {% for tag in site.categories %}{% if tag[0] != 'blog' %}
+    {% for tag in site.categories %}
     <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
     {% endif %}{% endfor %}
   </div>
@@ -24,6 +24,6 @@ image: /assets/images/blog/categories.jpg
       </a>
       {% endfor %}
     </ul>
-    {% endif %}{% endfor %}
+    {% endfor %}
   </div>
 </div>
