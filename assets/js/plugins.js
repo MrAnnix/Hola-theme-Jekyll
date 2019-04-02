@@ -5,12 +5,6 @@
  * -------------------------------------------------------------------
  */
 
- /*
- * commentBox
- */
-commentBox('5646947083878400-proj');
-
-
 /*! jQuery Validation Plugin - v1.17.0 - 7/29/2017
  * https://jqueryvalidation.org/
  * Copyright (c) 2017 Jörn Zaefferer; Licensed MIT */
