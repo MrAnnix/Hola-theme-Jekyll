@@ -8,6 +8,7 @@
  /*
  * commentBox
  */
+ import commentBox from 'commentbox.io';
  commentBox('5646947083878400-proj');
 
 
