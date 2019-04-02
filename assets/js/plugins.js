@@ -8,7 +8,8 @@
  /*
  * commentBox
  */
- import commentBox from 'commentbox.io';
+ const commentBox = require('commentbox.io');
+ 
  commentBox('5646947083878400-proj');
 
 
