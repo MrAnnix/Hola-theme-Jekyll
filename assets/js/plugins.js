@@ -8,7 +8,6 @@
  /*
  * commentBox
  */
-import * from 'https://unpkg.com/commentbox.io/dist/commentBox.min.js';
 
 commentBox('5646947083878400-proj');
 
