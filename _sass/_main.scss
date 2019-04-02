@@ -715,19 +715,19 @@ label > input[type="checkbox"], label > input[type="radio"] {
  * ## style placeholder text - (_forms.scss)
  * ------------------------------------------------------------------- */
 
-::-webkit-input-placeholder {
+/*::-webkit-input-placeholder {
     color: #6c6c6c;
 }
 
 :-moz-placeholder {
-    color: #6c6c6c;
+    color: #6c6c6c;*/
     /* Firefox 18- */
-}
+/*}
 
 ::-moz-placeholder {
-    color: #6c6c6c;
+    color: #6c6c6c;*/
     /* Firefox 19+ */
-}
+/*}
 
 :-ms-input-placeholder {
     color: #6c6c6c;
@@ -735,17 +735,17 @@ label > input[type="checkbox"], label > input[type="radio"] {
 
 .placeholder {
     color: #6c6c6c !important;
-}
+}*/
 
 
 /* -------------------------------------------------------------------
  * ## Change Autocomplete styles in Chrome - (_forms.scss)
  * ------------------------------------------------------------------- */
 
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+/*input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
     -webkit-text-fill-color: #cf3e3e;
     transition: background-color 5000s ease-in-out 0s;
-}
+}*/
 
 
 
