@@ -204,7 +204,7 @@ layout: default
                         </p>
 
                         <div class="blog-cat">
-                                {% for category in post.categories %}{% if category[0] != 'blog' %}
+                                {% for category in post.categories %}{% if category != 'blog' %}
                                 <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
                                 {% endif %}{% endfor %}
                         </div>

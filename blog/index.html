@@ -14,7 +14,7 @@ layout: default
 
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        {% for category in post.categories %}{% if category[0] != 'blog' %}
+                        {% for category in post.categories %}{% if category != 'blog' %}
                         <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
                         {% endif %}{% endfor %}
                     </div>
