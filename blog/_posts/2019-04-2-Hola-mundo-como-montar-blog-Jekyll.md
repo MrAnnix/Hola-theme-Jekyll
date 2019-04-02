@@ -84,4 +84,5 @@ Yo personalmente me decanté por [Commentbox](https://commentbox.io "No ads.  No
 
 ___________________________________________________
 
+
 Espero haber animado a más de uno a crear su propio blog con Jekyll o a migrar el que ya tiene. Si de verdad queréis empezar, podéis hacerlo [aquí](https://jekyllrb.com/docs/step-by-step/01-setup/ "Guía paso a paso de Jekyll"). Jekyll tiene documentación a raudales y cuando esta no es suficiente, en Internet hay muchísimos tutoriales que explican como realizar la mayoría de las cosas que queráis hacer.
