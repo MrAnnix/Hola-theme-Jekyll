@@ -27,8 +27,8 @@ paginate_path: "blog/page:num"
 post-preview-words: 298
 
 # Categories and tags pages
-tag_page: '/blog/tags'
-category_page: '/blog/categories'
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
 # Theme fields
 hola:
