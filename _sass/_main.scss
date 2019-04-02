@@ -756,7 +756,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
  *
  * ------------------------------------------------------------------- */
 
-.btn, button,
+.btn, /*button,*/
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -780,8 +780,7 @@ input[type="button"] {
     border: .3rem solid #c5c5c5;
 }
 
-.btn:hover,
-button:hover,
+.btn:hover, /*button:hover,*/
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
