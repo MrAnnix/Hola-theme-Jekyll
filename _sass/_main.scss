@@ -4072,7 +4072,7 @@ article.blog-single .blog-content {
  * ------------------------------------------------------------------- */
 
  .remove-all-styles {
-    all: revert;
+    all: unset;
   }
 
 .comments-wrap {
