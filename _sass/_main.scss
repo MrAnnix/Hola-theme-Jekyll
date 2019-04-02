@@ -661,12 +661,11 @@ textarea, select {
     transform: rotate(45deg);
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
-}
-
+}*/
 
 /* IE9 and below */
 
-.oldie .ss-custom-select::after {
+/*.oldie .ss-custom-select::after {
     display: none;
 }
 
@@ -710,8 +709,7 @@ label > input[type="checkbox"], label > input[type="radio"] {
     margin: 0;
     position: relative;
     top: .15rem;
-}
-*/
+}*/
 
 /* -------------------------------------------------------------------
  * ## style placeholder text - (_forms.scss)
