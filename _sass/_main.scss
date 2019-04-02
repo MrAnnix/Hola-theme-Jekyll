@@ -463,7 +463,7 @@ th:last-child, td:last-child {
  * ## Spacing - (_document-setup.scss)
  * ------------------------------------------------------------------- */
 
-button, .btn {
+/*button, */.btn {
     margin-bottom: 1.2rem;
 }
 
@@ -471,7 +471,7 @@ fieldset {
     margin-bottom: 1.5rem;
 }
 
-input,
+/*input,*/
 textarea,
 select,
 pre,
@@ -586,7 +586,7 @@ form,
  *
  * ------------------------------------------------------------------- */
 
-fieldset {
+/*fieldset {
     border: none;
 }
 
@@ -661,12 +661,11 @@ textarea, select {
     transform: rotate(45deg);
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
-}
-
+}*/
 
 /* IE9 and below */
 
-.oldie .ss-custom-select::after {
+/*.oldie .ss-custom-select::after {
     display: none;
 }
 
@@ -710,26 +709,25 @@ label > input[type="checkbox"], label > input[type="radio"] {
     margin: 0;
     position: relative;
     top: .15rem;
-}
-
+}*/
 
 /* -------------------------------------------------------------------
  * ## style placeholder text - (_forms.scss)
  * ------------------------------------------------------------------- */
 
-::-webkit-input-placeholder {
+/*::-webkit-input-placeholder {
     color: #6c6c6c;
 }
 
 :-moz-placeholder {
-    color: #6c6c6c;
+    color: #6c6c6c;*/
     /* Firefox 18- */
-}
+/*}
 
 ::-moz-placeholder {
-    color: #6c6c6c;
+    color: #6c6c6c;*/
     /* Firefox 19+ */
-}
+/*}
 
 :-ms-input-placeholder {
     color: #6c6c6c;
@@ -737,17 +735,17 @@ label > input[type="checkbox"], label > input[type="radio"] {
 
 .placeholder {
     color: #6c6c6c !important;
-}
+}*/
 
 
 /* -------------------------------------------------------------------
  * ## Change Autocomplete styles in Chrome - (_forms.scss)
  * ------------------------------------------------------------------- */
 
-input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
+/*input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus input:-webkit-autofill, textarea:-webkit-autofill, textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus, select:-webkit-autofill, select:-webkit-autofill:hover, select:-webkit-autofill:focus {
     -webkit-text-fill-color: #cf3e3e;
     transition: background-color 5000s ease-in-out 0s;
-}
+}*/
 
 
 
@@ -756,7 +754,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
  *
  * ------------------------------------------------------------------- */
 
-.btn, button,
+.btn, /*button,*/
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
@@ -780,12 +778,11 @@ input[type="button"] {
     border: .3rem solid #c5c5c5;
 }
 
-.btn:hover,
-button:hover,
+.btn:hover, /*button:hover,*/
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
-.btn:focus, button:focus,
+.btn:focus, /*button:focus,*/
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
@@ -799,8 +796,7 @@ input[type="button"]:focus {
 /* button primary
  * ------------------------------------------------- */
 
-.btn.btn--primary,
-button.btn--primary,
+.btn.btn--primary, /*button.btn--primary,*/
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
@@ -809,8 +805,7 @@ input[type="button"].btn--primary {
     color: #FFFFFF;
 }
 
-.btn.btn--primary:hover,
-button.btn--primary:hover,
+.btn.btn--primary:hover, /*button.btn--primary:hover,*/
 input[type="submit"].btn--primary:hover,
 input[type="reset"].btn--primary:hover,
 input[type="button"].btn--primary:hover,
@@ -827,42 +822,42 @@ input[type="button"].btn--primary:focus {
 /* button modifiers
  * ------------------------------------------------- */
 
-.btn.full-width, button.full-width {
+.btn.full-width/*, button.full-width */{
     width: 100%;
     margin-right: 0;
 }
 
-.btn--medium, button.btn--medium {
+.btn--medium/*, button.btn--medium */{
     height: 5.7rem !important;
     line-height: calc(5.7rem - .6rem) !important;
 }
 
-.btn--large, button.btn--large {
+.btn--large/*, button.btn--large */{
     height: 6rem !important;
     line-height: calc(6rem - .6rem) !important;
 }
 
-.btn--stroke, button.btn--stroke {
+.btn--stroke/*, button.btn--stroke */{
     background: transparent !important;
     border: 0.3rem solid #000000;
     color: #000000;
 }
 
-.btn--stroke:hover, button.btn--stroke:hover {
+.btn--stroke:hover/*, button.btn--stroke:hover */{
     border: 0.3rem solid #862121;
     color: #862121;
 }
 
-.btn--pill, button.btn--pill {
+.btn--pill/*, button.btn--pill */{
     padding-left: 3rem !important;
     padding-right: 3rem !important;
     border-radius: 1000px !important;
 }
 
-button::-moz-focus-inner, input::-moz-focus-inner {
+/*button::-moz-focus-inner, input::-moz-focus-inner {
     border: 0;
     padding: 0;
-}
+}*/
 
 
 
@@ -3198,6 +3193,8 @@ html.no-csstransitions .home-content__main {
     font-size: 1.2rem;
 }
 
+*/
+
 
 /* form loader */
 
@@ -4070,10 +4067,6 @@ article.blog-single .blog-content {
 /* -------------------------------------------------------------------
  * ## comments - _blog.scss
  * ------------------------------------------------------------------- */
-
- .remove-all-styles {
-    all: unset;
-  }
 
 .comments-wrap {
     background-color: #f0f0f0;
