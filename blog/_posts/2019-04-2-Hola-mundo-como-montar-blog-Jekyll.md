@@ -81,5 +81,7 @@ Para el resto de las funcionalidades he utilizado Liquid exclusivamente, en conc
 Lo más probable es que los propietarios de un blog deseen añadir la función de comentarios en las entradas del mismo. Para ello es necesaria la ejecución de código por parte del servidor. Pero Jekyll solo genera sitios estáticos... ¿Qué hacemos? Tranquilos, existen infinidad de soluciones para ello. Desde Facebook Comments, Disqus o incluso opciones autogestionadas.
 
 Yo personalmente me decanté por [Commentbox](https://commentbox.io "No ads.  No Tracking.  Just Comments."), pero existen opciones geniales a tener en cuenta. Por ejemplo: [Commento](https://gitlab.com/commento/commento "A fast, bloat-free, privacy-focused commenting platform") (mi segundo candidato en la lista), [Remark42](https://remark42.com/ "self-hosted, lightweight, and simple commenting system"), [Just Comments](https://just-comments.com/ "Easy to set up, ad-free and fairly priced comment system") (no es gratis pero es bastante barato)...
-_________________________________________________________________________________________________________________________
+
+___________________________________________________
+
 Espero haber animado a más de uno a crear su propio blog con Jekyll o a migrar el que ya tiene. Si de verdad queréis empezar, podéis hacerlo [aquí](https://jekyllrb.com/docs/step-by-step/01-setup/ "Guía paso a paso de Jekyll"). Jekyll tiene documentación a raudales y cuando esta no es suficiente, en Internet hay muchísimos tutoriales que explican como realizar la mayoría de las cosas que queráis hacer.
