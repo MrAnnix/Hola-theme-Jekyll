@@ -14,9 +14,9 @@ layout: default
 
                 <div class="page-header__info">
                     <div class="page-header__cat">
-                        {% for category in post.categories %}{% if category != 'blog' %}
+                        {% for category in post.categories %}
                         <a href="{{ site.baseurl }}{{ site.category_page }}#{{ category | slugify }}">{{ category }}</a>
-                        {% endif %}{% endfor %}
+                        {% endfor %}
                     </div>
                     <div class="page-header__date">
                         {{ post.date | date: '%B %d, %Y' }}
