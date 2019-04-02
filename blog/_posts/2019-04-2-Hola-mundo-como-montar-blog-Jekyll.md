@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "¡Hola Mundo! (o cómo monté este blog en Jekyll)"
-image: /images/blog/2019-04-2-Hola-mundo-como-montar-blog-Jekyll.jpg
+image: /assets/images/blog/2019-04-2-Hola-mundo-como-montar-blog-Jekyll.jpg
 categories: Jekyll
 tags: [Jekyll, SSG, github pages, blog]
 ---
@@ -10,7 +10,7 @@ Primero de todo aclarar que esto no es un presentacion, para eso ya está la sec
 
 ### ¿Qué demonios es Jekyll?
 
-Así a *grosso modo*, es un generador de sitios web estáticos o SSG por ahorrar un poco de espacio, de código abierto y escrito en Ruby; de hecho su slogan es: *Transforma tu texto sin formato en sitios web y blogs estáticos*, es decir, puedes añadir contenido a tu web con la única ayuda de un editor de texto. 
+Así a *grosso modo*, es un generador de sitios web estáticos o SSG por ahorrar un poco de espacio, de código abierto y escrito en Ruby; de hecho su slogan es: *Transforma tu texto sin formato en sitios web y blogs estáticos*, es decir, puedes añadir contenido a tu web con la única ayuda de un editor de texto.
 
 Generadores de sitios web estáticos hay muchos: Hugo, Hexo, Gastby, Next... son [algunos](https://www.staticgen.com/ "Algunos generadores de sitios web estáticos") de los más conocidos.
 
@@ -67,7 +67,7 @@ Una vez que ya estaba configurado lo básico, lo siguiente era hacer que se hici
     </article>
     {% endfor %}
 
-El fragmento de arriba pertenece a la porción de código que genera la previsualización de los posts para la página principal de la web. Como podréis apreciar, la parte de Liquid es muy intuitiva y fácil de programar. 
+El fragmento de arriba pertenece a la porción de código que genera la previsualización de los posts para la página principal de la web. Como podréis apreciar, la parte de Liquid es muy intuitiva y fácil de programar.
 
 #### Plugins
 Seguramente, querréis que vuestro blog haga más cosas, por ejemplo: generar páginas de etiquetas y categorías, un mapa del sitio, un feed...
