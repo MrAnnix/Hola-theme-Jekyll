@@ -16,7 +16,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | strip_html | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         {% for category in post.categories %}{% if category != 'blog' %}
