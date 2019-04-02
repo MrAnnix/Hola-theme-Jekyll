@@ -40,14 +40,12 @@ layout: default
         </div> <!-- end home-content -->
 
         <ul class="home-social">
-            {% if site.social %}
             {% for slink in site.social %}
             <li><a {% if slink.smoothscroll %}class="smoothscroll" {% endif %}href="{{ slink.link }}">
               <i class="{{ slink.icon }}" aria-hidden="true"></i>
               <span>{{ slink.title }}</span>
             </a></li>
             {% endfor %}
-            {% endif %}
         </ul>
         <!-- end home-social -->
 
@@ -93,7 +91,7 @@ layout: default
 
         <div class="row masonry-wrap">
             <div class="masonry">
-                {% if site.data.works %}{% for work in site.data.works %}
+                {% for work in site.data.works %}
                 <div class="masonry__brick">
                     <div class="item-folio">
 
@@ -126,7 +124,7 @@ layout: default
 
                     </div> <!-- end item-folio -->
                 </div> <!-- end masonry__brick -->
-                {% endfor %}{% endif %}
+                {% endfor %}
             </div>
         </div> <!-- end masonry -->
 
@@ -191,7 +189,7 @@ layout: default
             <div class="col-full">
 
                 <div class="blog-list block-1-2 block-tab-full">
-                    {% if site.posts %}{% for post in site.posts limit:4 %}
+                    {% for post in site.posts limit:4 %}
                     <article class="col-block">
 
                         <div class="blog-date">
@@ -211,7 +209,7 @@ layout: default
 
 
                     </article>
-                    {% endfor %}{% endif %}
+                    {% endfor %}
                 </div> <!-- end blog-list -->
 
             </div> <!-- end col-full -->
